@@ -57,4 +57,21 @@ helpTable = r"""
              protecting services from casual fingerprinting. Do not use to evade law
              enforcement or to assist in committing crimes. Use reputable, legal services
              and follow terms of service.
+
+    WARNING: 1-) Rooms that has been created will be destroyed within 2 days if there are no active chats
+             2-) Rooms have rate-limits password can only be tried up to 10 times if you get blocked room
+                 admin needs to clear your ip from the black list
+             3-) Rooms can only be deleted by ROOM OWNER to use commands you need to be AUTHORISED BY ROOM OWNER
+
+    ROOM COMMANDS:
+        /kick: "Username"   -Kicks user with given username they cannot join for a day
+        /clear              -Clear chat history
+        /allow: "IP address"-Unbans users IP from black list (due to rate-limits)
+        /ban: "Username"    -Ban user with given username they can never join unless they are unbanned
+        /unban: "IP address"-Unbans user who got banned by "/ban" command
+        /deleteR            -Deletes Room (ONLY ROOM ADMIN CAN USE)
+        /checkIP: "Username"-Check IP of user with username
+        /addCo: "IP Address"-Adds another user who can use commands except /ban /deleteR /kick /checkIP /allow
+        /noChat             -Block sending messages for everyone except the ROOM ADMIN (ONLY ROOM ADMIN CAN USE IT)
+        /doghnut            -Doghnut and spin
 """
