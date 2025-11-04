@@ -41,7 +41,7 @@ options = r"""
 -pS : port scanner      -osint : discover public DNS footprint
 -bF: brute force        -vS : vulnerability scanner on websites
 -wC : web crawler       -kL : key logger
--aM : mail sending      -sms : sms message sending
+-aM : mail sending      -sms : sms message sending`
 -mIP : mask IP address
            
 -help : read more purpose of the otions
